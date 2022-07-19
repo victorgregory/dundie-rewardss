@@ -9,8 +9,9 @@ setup(
     author="Victor Gregory",
     packages=find_packages(),
     entry_points={
-        "console_scripts":
-            "dundie = dundie.__main__"
+        "console_scripts": [
+            "dundie = dundie.__main__:main"
+        ]
     }
 
 )
