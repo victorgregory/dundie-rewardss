@@ -1,4 +1,4 @@
 
 
 def main():
-    print("Executing dundie from entryu point.")
+    print("Executing dundie from entry point.")
